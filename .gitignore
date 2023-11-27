@@ -128,3 +128,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#Cypress Other files
+cypress/downloads/*
+cypress/screenshots/*
+cypress/fixtures/users.json

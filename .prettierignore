@@ -1,0 +1,7 @@
+# Ignore artifacts:
+node_modules/**
+view/**
+.env
+.env.example
+.husky
+package.json

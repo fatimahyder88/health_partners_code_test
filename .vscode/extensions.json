@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "dbaeumer.vscode-eslint",
+        "rvest.vs-code-prettier-eslint",
+        "JosefBiehler.cypress-fixture-intellisense",
+        "shevtsov.vscode-cy-helper",
+        "andrew-codes.cypress-snippets",
+        "chrisbreiding.test-utils"
+    ]
+}

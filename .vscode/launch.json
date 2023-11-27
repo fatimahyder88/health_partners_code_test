@@ -1,0 +1,17 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "name": "Start Cypress Console",
+            "type": "node",
+            "request": "launch",
+            "stopOnEntry": false,
+            "cwd": "${workspaceRoot}",
+            "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/cypress",
+            "runtimeArgs": [
+                "open"
+            ],
+            "console" : "internalConsole",
+        }
+    ]
+}
