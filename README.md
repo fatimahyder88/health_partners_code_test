@@ -9,7 +9,7 @@ This project consists of testing the **Amazon Store**, as specified in the test 
 
 ## Observations and Things to Consider
 Following things should be considered before executing this project.
-- The **Amazon Store** tests are a little *flaky* due to the dyanmic nature of the website. Sometimes the test may experience pop-ups, that are not consistent with the normal flow. I have tried my best to handle all possible case scenrios, which I faced during my development, but there may be a possibility that Amazon may trigger unknown pop-ups in the future, which may not be handled by these test cases. It is important to clarify that I faced these pop-ups during the Amazon Black Friday sales and these pop-ups may change afterwards.
+- The **Amazon Store** tests are a little *flaky* due to the dynamic nature of the website. Sometimes the test may experience pop-ups, that are not consistent with the normal flow. I have tried my best to handle all possible case scenrios, which I faced during my development, but there may be a possibility that Amazon may trigger unknown pop-ups in the future, which may not be handled by these test cases. It is important to clarify that I faced these pop-ups during the Amazon Black Friday sales and these pop-ups may change afterwards.
 - The test `main-page.cy.js` written for **Amazon Store** is against a specific item. It is possible that in the future, that item may not be available.
 - If you are using `Electron Browser`, you cay face `Robot Check` while accessing the **Amazon Store**. For this reason, I developed and tested this project against `Google Chrome`. browser
 
